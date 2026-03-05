@@ -363,6 +363,11 @@ msgid "orderState.ArrangingAdditionalPayment"
 msgstr "Arranging additional payment"
 
 #. js-lingui-explicit-id
+#: src/i18n/common-strings.ts:41
+msgid "orderState.Validating"
+msgstr "Awaiting Validation"
+
+#. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:43
 msgid "refundReason.CustomerRequest"
 msgstr "Customer request"

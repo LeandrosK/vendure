@@ -359,6 +359,11 @@ msgid "orderState.ArrangingAdditionalPayment"
 msgstr "Διευθέτηση Συμπληρωματικής Πληρωμής"
 
 #. js-lingui-explicit-id
+#: src/i18n/common-strings.ts:41
+msgid "orderState.Validating"
+msgstr "Αναμονή Επιβεβαίωσης"
+
+#. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:43
 msgid "refundReason.CustomerRequest"
 msgstr "Αίτημα Πελάτη"
