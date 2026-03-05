@@ -8,6 +8,7 @@ export const defaultAvailableLanguages = [
     LanguageCode.ar,
     LanguageCode.de,
     LanguageCode.en,
+    LanguageCode.el,
     LanguageCode.es,
     LanguageCode.pl,
     LanguageCode.zh_Hans,
