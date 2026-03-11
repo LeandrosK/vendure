@@ -16,6 +16,7 @@ export const defaultAvailableLanguages = [
     'zh_Hant',
     'bg',
     'nl',
+    'el',
 ];
 export const defaultAvailableLocales = [
     'en-US',
@@ -27,6 +28,7 @@ export const defaultAvailableLocales = [
     'pt-PT',
     'bg_BG',
     'nl-NL',
+    'el-GR',
 ];
 
 export const manageDashboardGlobalViews = new RwPermissionDefinition('DashboardGlobalViews');

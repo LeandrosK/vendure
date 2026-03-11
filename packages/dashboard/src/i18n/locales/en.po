@@ -68,7 +68,7 @@ msgstr "Accommodations"
 #. js-lingui-explicit-id
 #: src/lib/framework/defaults.ts:38
 msgid "Product Variants"
-msgstr "Accommodation Types"
+msgstr "Accommodation Variants"
 
 #. js-lingui-explicit-id
 #: src/lib/framework/defaults.ts:45
@@ -288,6 +288,11 @@ msgid "paymentState.Cancelled"
 msgstr "Cancelled"
 
 #. js-lingui-explicit-id
+#: src/i18n/common-strings.ts:21
+msgid "paymentState.AwaitingPayment"
+msgstr "Awaiting Payment"
+
+#. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:23
 msgid "paymentState.Pending"
 msgstr "Pending"
@@ -310,7 +315,7 @@ msgstr "Draft"
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:30
 msgid "orderState.AddingItems"
-msgstr "Adding items"
+msgstr "Cart"
 
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:31
@@ -365,7 +370,12 @@ msgstr "Arranging additional payment"
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:41
 msgid "orderState.Validating"
-msgstr "Awaiting Confirmation"
+msgstr "Awaiting validation"
+
+#. js-lingui-explicit-id
+#: src/i18n/common-strings.ts:42
+msgid "orderState.AwaitingPayment"
+msgstr "Awaiting payment"
 
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:43
@@ -375,7 +385,7 @@ msgstr "Customer request"
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:44
 msgid "refundReason.NotAvailable"
-msgstr "Accommodation not available"
+msgstr "Item not available"
 
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:45
@@ -385,7 +395,7 @@ msgstr "Damaged in shipping"
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:46
 msgid "refundReason.WrongItem"
-msgstr "Wrong accommodation booked"
+msgstr "Wrong item shipped"
 
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:47
@@ -610,7 +620,7 @@ msgstr "Prices include tax"
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:93
 msgid "fieldName.productVariants"
-msgstr "Accommodation types"
+msgstr "Accommodation variants"
 
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:94
@@ -665,7 +675,7 @@ msgstr "Started at"
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:104
 msgid "fieldName.startsAt"
-msgstr "Started at"
+msgstr "Starts at"
 
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:105
@@ -837,6 +847,11 @@ msgstr "{label}"
 #: src/lib/components/data-table/human-readable-operator.tsx:63
 msgid "{operator}"
 msgstr "{operator}"
+
+#. placeholder {0}: table.getFilteredRowModel().rows.length
+#: src/lib/components/data-table/data-table-pagination.tsx:17
+msgid "{selectedRowCount} of {0} row(s) selected."
+msgstr "{selectedRowCount} of {0} row(s) selected."
 
 #: src/app/routes/_authenticated/_orders/hooks/use-refund-order.ts:286
 msgid "{successfulRefundCount} payment(s) refunded before failure. Check order history for details."
@@ -1022,7 +1037,7 @@ msgstr "Add accommodation options first"
 
 #: src/app/routes/_authenticated/_products/components/add-product-variant-dialog.tsx:276
 msgid "Add product variant"
-msgstr "Add accommodation type"
+msgstr "Add accommodation variant"
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-order-builder.tsx:232
 msgid "Add products to create a test order"
@@ -1056,7 +1071,7 @@ msgstr "Add tags..."
 #: src/app/routes/_authenticated/_products/components/add-product-variant-dialog.tsx:243
 #: src/app/routes/_authenticated/_products/components/add-product-variant-dialog.tsx:270
 msgid "Add variant"
-msgstr "Add type"
+msgstr "Add variant"
 
 #: src/app/routes/_authenticated/_profile/profile.tsx:133
 msgid "Added"
@@ -1588,7 +1603,7 @@ msgstr "Create \"{0}\""
 
 #: src/app/routes/_authenticated/_products/components/create-product-variants-dialog.tsx:182
 msgid "Create {createCount} variants"
-msgstr "Create {createCount} types"
+msgstr "Create {createCount} variants"
 
 #: src/app/routes/_authenticated/_products/components/create-product-options-dialog.tsx:249
 #: src/app/routes/_authenticated/_products/components/create-product-options-dialog.tsx:408
@@ -1601,15 +1616,15 @@ msgstr "Create accommodation options"
 
 #: src/app/routes/_authenticated/_products/components/add-product-variant-dialog.tsx:364
 msgid "Create variant"
-msgstr "Create type"
+msgstr "Create variant"
 
 #: src/app/routes/_authenticated/_products/components/create-product-variants-dialog.tsx:153
 msgid "Create Variants"
-msgstr "Create Types"
+msgstr "Create Variants"
 
 #: src/app/routes/_authenticated/_products/components/create-product-variants-dialog.tsx:156
 msgid "Create variants for your product"
-msgstr "Create types for your accommodation"
+msgstr "Create variants for your accommodation"
 
 #: src/app/routes/_authenticated/_orders/components/fulfillment-details.tsx:114
 #: src/lib/framework/layout-engine/page-layout.tsx:433
@@ -1892,15 +1907,15 @@ msgstr "Duplicating... ({0}/{1})"
 
 #: src/app/routes/_authenticated/_products/components/create-product-options-dialog.tsx:269
 msgid "e.g. Size"
-msgstr "e.g. Size"
+msgstr "e.g. Room Type"
 
 #: src/app/routes/_authenticated/_products/components/create-product-options-dialog.tsx:290
 msgid "e.g. Small"
-msgstr "e.g. Small"
+msgstr "e.g. Deluxe"
 
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:144
 msgid "e.g., Red, Large, Cotton"
-msgstr "e.g., Red, Large, Cotton"
+msgstr "e.g., Sea View, King Bed, Breakfast Included"
 
 #: src/app/routes/_authenticated/_orders/orders_.$id_.modify.tsx:250
 #: src/app/routes/_authenticated/_orders/orders_.$id_.modify.tsx:276
@@ -2198,7 +2213,7 @@ msgstr "Failed to create accommodation options"
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:137
 #: src/app/routes/_authenticated/_products/components/add-product-variant-dialog.tsx:174
 msgid "Failed to create product variant"
-msgstr "Failed to create accommodation type"
+msgstr "Failed to create accommodation variant"
 
 #: src/app/routes/_authenticated/_promotions/promotions_.$id.tsx:113
 #: src/app/routes/_authenticated/_promotions/promotions_.$id.tsx:121
@@ -2419,7 +2434,7 @@ msgstr "Failed to update accommodation option group"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:137
 msgid "Failed to update product variant"
-msgstr "Failed to update accommodation type"
+msgstr "Failed to update accommodation variant"
 
 #: src/app/routes/_authenticated/_profile/profile.tsx:68
 msgid "Failed to update profile"
@@ -2768,7 +2783,7 @@ msgstr "is null"
 
 #: src/app/routes/_authenticated/_orders/orders_.draft.$id.tsx:107
 msgid "Item added to order"
-msgstr "Accommodation added to reservation"
+msgstr "Item added to reservation"
 
 #: src/app/routes/_authenticated/_orders/components/order-history/order-history-utils.tsx:110
 msgid "Items refunded"
@@ -2932,11 +2947,11 @@ msgstr "Manage Tags"
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:252
 #: src/app/routes/_authenticated/_products/products_.$id.tsx:184
 msgid "Manage variants"
-msgstr "Manage types"
+msgstr "Manage variants"
 
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:56
 msgid "Manage Variants"
-msgstr "Manage Types"
+msgstr "Manage Variants"
 
 #: src/lib/components/data-table/views-sheet.tsx:132
 msgid "Manage your personal saved views for this table"
@@ -2966,6 +2981,11 @@ msgstr "Metrics"
 #: src/app/routes/_authenticated/_orders/utils/order-detail-loaders.tsx:75
 msgid "Modify"
 msgstr "Modify"
+
+#: src/app/routes/_authenticated/_orders/components/order-detail-shared.tsx:158
+#: src/app/routes/_authenticated/_orders/utils/order-detail-loaders.tsx:75
+msgid "Modify order"
+msgstr "Modify reservation"
 
 #: src/app/routes/_authenticated/_orders/orders_.$id_.modify.tsx:162
 msgid "Modify order"
@@ -3147,7 +3167,7 @@ msgstr "New accommodation option group"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:218
 msgid "New product variant"
-msgstr "New accommodation type"
+msgstr "New accommodation variant"
 
 #: src/app/routes/_authenticated/_promotions/promotions_.$id.tsx:45
 #: src/app/routes/_authenticated/_promotions/promotions_.$id.tsx:129
@@ -3310,7 +3330,7 @@ msgstr "No more items"
 
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:259
 msgid "No option groups defined yet. Add option groups to create different variants of your product (e.g., Size, Color, Material)"
-msgstr "No option groups defined yet. Add option groups to create different types of your accommodation (e.g., View, Bed Type, Material)"
+msgstr "No option groups defined yet. Add option groups to create different variants of your accommodation (e.g., Room Type, View, Bed Configuration)"
 
 #: src/app/routes/_authenticated/_orders/components/order-modification-preview-dialog.tsx:336
 msgid "No payment or refund is required for these changes."
@@ -3470,7 +3490,7 @@ msgstr "Reservation custom fields updated"
 
 #: src/app/routes/_authenticated/_orders/components/order-history/order-history-utils.tsx:97
 msgid "Order delivered"
-msgstr "Reservation delivered"
+msgstr "Stay completed"
 
 #: src/app/routes/_authenticated/_orders/components/draft-order-status.tsx:36
 msgid "Order draft is ready to be completed"
@@ -3527,7 +3547,7 @@ msgstr "Reservation placed"
 #: src/app/routes/_authenticated/_orders/components/order-history/order-history-utils.tsx:88
 #: src/app/routes/_authenticated/_orders/components/order-history/order-history-utils.tsx:94
 msgid "Order shipped"
-msgstr "Reservation shipped"
+msgstr "Reservation confirmed"
 
 #: src/lib/framework/dashboard-widget/metrics-widget/index.tsx:70
 msgid "Order Total"
@@ -3676,11 +3696,11 @@ msgstr "Phone Number"
 
 #: src/lib/framework/dashboard-widget/latest-orders-widget/index.tsx:107
 msgid "Placed At"
-msgstr "Placed At"
+msgstr "Reserved At"
 
 #: src/app/routes/_authenticated/_shipping-methods/components/shipping-method-test-result-wrapper.tsx:58
 msgid "Please add products and complete the shipping address to run the test."
-msgstr "Please add accommodations and complete the address to run the test."
+msgstr "Please add accommodations and complete the billing address to run the test."
 
 #: src/app/routes/_authenticated/_collections/components/move-collections-dialog.tsx:311
 msgid "Please select a target collection"
@@ -3737,11 +3757,11 @@ msgstr "Private"
 
 #: src/app/routes/_authenticated/_collections/collections_.$id.tsx:154
 msgid "Private collections are not visible in the shop"
-msgstr "Private collections are not visible on the site"
+msgstr "Private collections are not visible in the shop"
 
 #: src/app/routes/_authenticated/_facets/facets_.$id.tsx:113
 msgid "Private facets are not visible in the shop"
-msgstr "Private facets are not visible on the site"
+msgstr "Private facets are not visible in the shop"
 
 #: src/app/routes/_authenticated/_orders/components/refund-order-dialog.tsx:360
 msgid "Processing..."
@@ -3774,7 +3794,7 @@ msgstr "Accommodation Options"
 #: src/app/routes/_authenticated/_product-variants/product-variants.tsx:18
 #: src/app/routes/_authenticated/_product-variants/product-variants.tsx:26
 msgid "Product Variants"
-msgstr "Accommodation Types"
+msgstr "Accommodation Units"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:64
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:54
@@ -3890,7 +3910,7 @@ msgstr "Refund settled successfully"
 
 #: src/app/routes/_authenticated/_orders/components/refund-order-dialog.tsx:200
 msgid "Refund shipping"
-msgstr "Refund shipping"
+msgstr "Refund fees"
 
 #: src/app/routes/_authenticated/_orders/components/refund-order-dialog.tsx:244
 msgid "Refund total"
@@ -3984,7 +4004,7 @@ msgstr "Reset"
 
 #: src/app/routes/_authenticated/_orders/components/refund-order-dialog.tsx:105
 msgid "Return to stock"
-msgstr "Return to stock"
+msgstr "Return to inventory"
 
 #: src/app/routes/_authenticated/_orders/components/order-modification-preview-dialog.tsx:152
 msgid "Review the changes before applying them to the order."
@@ -4159,7 +4179,7 @@ msgstr "Select a currency"
 
 #: src/app/routes/_authenticated/_orders/components/draft-order-status.tsx:23
 msgid "Select a customer to continue"
-msgstr "Select a customer to continue"
+msgstr "Select a guest to continue"
 
 #: src/app/routes/_authenticated/_collections/components/move-collections-dialog.tsx:83
 msgid "Select a destination collection"
@@ -4212,7 +4232,7 @@ msgstr "Select country"
 
 #: src/lib/components/shared/customer-selector.tsx:78
 msgid "Select customer"
-msgstr "Select customer"
+msgstr "Select guest"
 
 #: src/lib/components/date-range-picker.tsx:128
 msgid "Select date range"
@@ -4236,7 +4256,7 @@ msgstr "Select items"
 
 #: src/app/routes/_authenticated/_orders/components/refund-order-dialog.tsx:75
 msgid "Select items to refund and optionally return to stock"
-msgstr "Select items to refund and optionally return to stock"
+msgstr "Select items to refund and optionally return to inventory"
 
 #: src/app/routes/_authenticated/_orders/components/use-transition-order-to-state.tsx:103
 msgid "Select next state"
@@ -4248,7 +4268,7 @@ msgstr "Select payments to refund"
 
 #: src/app/routes/_authenticated/_orders/components/fulfill-order-dialog.tsx:228
 msgid "Select quantities to fulfill and configure the fulfillment handler"
-msgstr "Select quantities to fulfill and configure the fulfillment handler"
+msgstr "Select quantities to fulfill and configure the booking handler"
 
 #: src/lib/components/shared/seller-selector.tsx:76
 msgid "Select seller"
@@ -4261,7 +4281,7 @@ msgstr "Select the next state for the reservation"
 #. placeholder {0}: productData.product.variants[0].name
 #: src/app/routes/_authenticated/_products/components/create-product-options-dialog.tsx:328
 msgid "Select which options should apply to the existing variant \"{0}\""
-msgstr "Select which options should apply to the existing type \"{0}\""
+msgstr "Select which options should apply to the existing unit \"{0}\""
 
 #: src/lib/components/data-input/product-multi-selector-input.tsx:316
 msgid "Selected Items"
@@ -4287,7 +4307,7 @@ msgstr "Sellers"
 
 #: src/app/routes/_authenticated/_orders/components/draft-order-status.tsx:27
 msgid "Set a shipping address and select a shipping method"
-msgstr "Set an address and select a reservation method"
+msgstr "Set a billing address and select a booking method"
 
 #: src/app/routes/_authenticated/_orders/orders_.draft.$id.tsx:414
 msgid "Set custom fields"
@@ -4307,12 +4327,12 @@ msgstr "Sets the languages that are available for all channels. Individual chann
 
 #: src/app/routes/_authenticated/_global-settings/global-settings.tsx:133
 msgid "Sets the stock level at which this a variant is considered to be out of stock. Using a negative value enables backorder support. Can be overridden by product variants."
-msgstr "Sets the stock level at which this a type is considered to be out of stock. Using a negative value enables backorder support. Can be overridden by accommodation types."
+msgstr "Sets the availability level at which this a unit is considered to be unavailable. Using a negative value enables overbooking support. Can be overridden by accommodation units."
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:375
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:393
 msgid "Sets the stock level at which this variant is considered to be out of stock. Using a negative value enables backorder support."
-msgstr "Sets the stock level at which this type is considered to be out of stock."
+msgstr "Sets the availability level at which this unit is considered to be unavailable. Using a negative value enables overbooking support."
 
 #: src/app/routes/_authenticated/_orders/components/payment-details.tsx:142
 msgid "Settle payment"
@@ -4328,55 +4348,55 @@ msgstr "Settle refund"
 #: src/app/routes/_authenticated/_orders/components/refund-order-dialog.tsx:188
 #: src/app/routes/_authenticated/_orders/orders.tsx:85
 msgid "Shipping"
-msgstr "Shipping"
+msgstr "Fees & Services"
 
 #: src/app/routes/_authenticated/_orders/components/order-detail-shared.tsx:289
 #: src/app/routes/_authenticated/_orders/orders_.$id_.modify.tsx:243
 #: src/app/routes/_authenticated/_orders/orders_.draft.$id.tsx:434
 msgid "Shipping address"
-msgstr "Shipping address"
+msgstr "Guest address"
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-address-form.tsx:143
 msgid "Shipping Address"
-msgstr "Shipping Address"
+msgstr "Guest Address"
 
 #: src/app/routes/_authenticated/_orders/components/order-modification-summary.tsx:128
 msgid "Shipping address changed"
-msgstr "Shipping address changed"
+msgstr "Guest address changed"
 
 #: src/app/routes/_authenticated/_orders/orders_.draft.$id.tsx:182
 msgid "Shipping address set for order"
-msgstr "Shipping address set for reservation"
+msgstr "Guest address set for reservation"
 
 #: src/app/routes/_authenticated/_orders/orders_.draft.$id.tsx:198
 msgid "Shipping address unset for order"
-msgstr "Shipping address unset for reservation"
+msgstr "Guest address unset for reservation"
 
 #: src/app/routes/_authenticated/_orders/components/order-modification-summary.tsx:142
 msgid "Shipping method changed"
-msgstr "Shipping method changed"
+msgstr "Booking method changed"
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-single-method-result.tsx:58
 msgid "Shipping method is eligible for this order"
-msgstr "Shipping method is eligible for this reservation"
+msgstr "Booking method is eligible for this reservation"
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-single-method-result.tsx:76
 msgid "Shipping method is not eligible for this order"
-msgstr "Shipping method is not eligible for this reservation"
+msgstr "Booking method is not eligible for this reservation"
 
 #: src/app/routes/_authenticated/_orders/orders_.draft.$id.tsx:217
 msgid "Shipping method set for order"
-msgstr "Shipping method set for reservation"
+msgstr "Booking method set for reservation"
 
 #: src/app/routes/_authenticated/_shipping-methods/shipping-methods_.$id.tsx:43
 #: src/app/routes/_authenticated/_shipping-methods/shipping-methods.tsx:20
 #: src/app/routes/_authenticated/_shipping-methods/shipping-methods.tsx:29
 msgid "Shipping Methods"
-msgstr "Shipping Methods"
+msgstr "Booking Methods"
 
 #: src/app/routes/_authenticated/_orders/components/order-history/default-order-history-components.tsx:122
 msgid "Shipping refunded"
-msgstr "Shipping refunded"
+msgstr "Fees refunded"
 
 #: src/lib/components/layout/language-dialog.tsx:115
 msgid "Short date"
@@ -4407,11 +4427,11 @@ msgstr "Sign in to access the admin dashboard"
 #: src/app/routes/_authenticated/_products/components/create-product-variants.tsx:209
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:306
 msgid "SKU"
-msgstr "SKU"
+msgstr "Code/ID"
 
 #: src/app/routes/_authenticated/_orders/components/refund-order-dialog.tsx:131
 msgid "SKU:"
-msgstr "SKU:"
+msgstr "Code/ID:"
 
 #: src/app/routes/_authenticated/_collections/collections_.$id.tsx:171
 #: src/app/routes/_authenticated/_products/products_.$id.tsx:150
@@ -4461,16 +4481,16 @@ msgstr "Status"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:336
 msgid "Stock"
-msgstr "Stock"
+msgstr "Availability"
 
 #: src/lib/components/shared/stock-level-label.tsx:18
 msgid "Stock allocated"
-msgstr "Units allocated"
+msgstr "Units reserved"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:416
 #: src/app/routes/_authenticated/_products/components/add-product-variant-dialog.tsx:353
 msgid "Stock level"
-msgstr "Availability"
+msgstr "Availability level"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:341
 msgid "Stock levels"
@@ -4480,15 +4500,15 @@ msgstr "Availability levels"
 #: src/app/routes/_authenticated/_stock-locations/stock-locations.tsx:18
 #: src/app/routes/_authenticated/_stock-locations/stock-locations.tsx:25
 msgid "Stock Locations"
-msgstr "Stock Locations"
+msgstr "Property Locations"
 
 #: src/lib/components/shared/stock-level-label.tsx:18
 msgid "Stock on hand"
-msgstr "Units on hand"
+msgstr "Units available"
 
 #: src/app/routes/_authenticated/_products/components/create-product-variants.tsx:215
 msgid "Stock on Hand"
-msgstr "Units on Hand"
+msgstr "Units available"
 
 #: src/app/routes/_authenticated/_customers/components/customer-address-form.tsx:147
 #: src/app/routes/_authenticated/_shipping-methods/components/test-address-form.tsx:175
@@ -4538,11 +4558,11 @@ msgstr "Successfully created country"
 
 #: src/app/routes/_authenticated/_customers/customers_.$id.tsx:93
 msgid "Successfully created customer"
-msgstr "Successfully created customer"
+msgstr "Successfully created guest"
 
 #: src/app/routes/_authenticated/_customer-groups/customer-groups_.$id.tsx:66
 msgid "Successfully created customer group"
-msgstr "Successfully created customer group"
+msgstr "Successfully created guest group"
 
 #: src/app/routes/_authenticated/_facets/facets_.$id.tsx:79
 msgid "Successfully created facet"
@@ -4579,7 +4599,7 @@ msgstr "Successfully created accommodation options"
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:127
 #: src/app/routes/_authenticated/_products/components/add-product-variant-dialog.tsx:169
 msgid "Successfully created product variant"
-msgstr "Successfully created accommodation type"
+msgstr "Successfully created unit"
 
 #: src/app/routes/_authenticated/_promotions/promotions_.$id.tsx:105
 msgid "Successfully created promotion"
@@ -4595,11 +4615,11 @@ msgstr "Successfully created seller"
 
 #: src/app/routes/_authenticated/_shipping-methods/shipping-methods_.$id.tsx:91
 msgid "Successfully created shipping method"
-msgstr "Successfully created shipping method"
+msgstr "Successfully created booking method"
 
 #: src/app/routes/_authenticated/_stock-locations/stock-locations_.$id.tsx:69
 msgid "Successfully created stock location"
-msgstr "Successfully created stock location"
+msgstr "Successfully created location"
 
 #: src/app/routes/_authenticated/_tax-categories/tax-categories_.$id.tsx:69
 msgid "Successfully created tax category"
@@ -4655,11 +4675,11 @@ msgstr "Successfully updated country"
 
 #: src/app/routes/_authenticated/_customers/customers_.$id.tsx:93
 msgid "Successfully updated customer"
-msgstr "Successfully updated customer"
+msgstr "Successfully updated guest"
 
 #: src/app/routes/_authenticated/_customer-groups/customer-groups_.$id.tsx:67
 msgid "Successfully updated customer group"
-msgstr "Successfully updated customer group"
+msgstr "Successfully updated guest group"
 
 #: src/app/routes/_authenticated/_facets/facets_.$id.tsx:79
 msgid "Successfully updated facet"
@@ -4700,7 +4720,7 @@ msgstr "Successfully updated accommodation option group"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:128
 msgid "Successfully updated product variant"
-msgstr "Successfully updated accommodation type"
+msgstr "Successfully updated unit"
 
 #: src/app/routes/_authenticated/_profile/profile.tsx:64
 msgid "Successfully updated profile"
@@ -4720,11 +4740,11 @@ msgstr "Successfully updated seller"
 
 #: src/app/routes/_authenticated/_shipping-methods/shipping-methods_.$id.tsx:92
 msgid "Successfully updated shipping method"
-msgstr "Successfully updated shipping method"
+msgstr "Successfully updated booking method"
 
 #: src/app/routes/_authenticated/_stock-locations/stock-locations_.$id.tsx:70
 msgid "Successfully updated stock location"
-msgstr "Successfully updated stock location"
+msgstr "Successfully updated location"
 
 #: src/app/routes/_authenticated/_tax-categories/tax-categories_.$id.tsx:70
 msgid "Successfully updated tax category"
@@ -4820,28 +4840,28 @@ msgstr "Test Results"
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-single-shipping-method-sheet.tsx:39
 msgid "Test Shipping Method"
-msgstr "Test Reservation Method"
+msgstr "Test Booking Method"
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-shipping-methods-sheet.tsx:29
 msgid "Test shipping methods"
-msgstr "Test reservation methods"
+msgstr "Test booking methods"
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-single-shipping-method-sheet.tsx:42
 msgid "Test this shipping method by simulating an order to see if it's eligible and what the shipping cost would be."
-msgstr "Test this method by simulating a reservation to see if it's eligible and what the cost would be."
+msgstr "Test this booking method by simulating a reservation to see if it's eligible and what the cost would be."
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-shipping-methods-sheet.tsx:32
 msgid "Test your shipping methods by simulating a new order."
-msgstr "Test your reservation methods by simulating a new booking."
+msgstr "Test your booking methods by simulating a new reservation."
 
 #: src/app/routes/_authenticated/_shipping-methods/components/shipping-method-test-result-wrapper.tsx:31
 #: src/app/routes/_authenticated/_shipping-methods/components/test-single-method-result.tsx:46
 msgid "Testing shipping method..."
-msgstr "Testing reservation method..."
+msgstr "Testing booking method..."
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-shipping-methods-result.tsx:56
 msgid "Testing shipping methods..."
-msgstr "Testing reservation methods..."
+msgstr "Testing booking methods..."
 
 #: src/app/routes/_authenticated/_system/job-queue.tsx:120
 msgid "The data that has been passed to the job"
@@ -4862,7 +4882,7 @@ msgstr "The token is used to specify the channel when making API requests."
 
 #: src/app/routes/_authenticated/_orders/orders_.draft.$id.tsx:117
 msgid "The variant could not be added. Ensure the parent product is enabled."
-msgstr "The type could not be added. Ensure the parent accommodation is enabled."
+msgstr "The unit could not be added. Ensure the parent accommodation is enabled."
 
 #: src/lib/components/layout/nav-user.tsx:121
 msgid "Theme"
@@ -4870,9 +4890,9 @@ msgstr "Theme"
 
 #: src/app/routes/_authenticated/_customer-groups/components/customer-group-members-sheet.tsx:39
 msgid "These are the customers in the <0>{customerGroupName}</0> customer group."
-msgstr "These are the customers in the <0>{customerGroupName}</0> customer group."
+msgstr "These are the guests in the <0>{customerGroupName}</0> guest group."
 
-#: src/app/routes/_authenticated/_facets/facets.tsx:36
+#: src/app/routes/_authenticated/_facets/components/facet-values-sheet.tsx:36
 msgid "These are the facet values for the <0>{facetName}</0> facet."
 msgstr "These are the facet values for the <0>{facetName}</0> facet."
 
@@ -4899,11 +4919,11 @@ msgstr "This month"
 
 #: src/app/routes/_authenticated/_products/components/add-product-variant-dialog.tsx:254
 msgid "This product has existing variants but no option groups defined. You need to add option groups before creating new variants."
-msgstr "This accommodation has existing types but no option groups defined. You need to add option groups before creating new types."
+msgstr "This accommodation has existing units but no option groups defined. You need to add option groups before creating new units."
 
 #: src/app/routes/_authenticated/_shipping-methods/components/test-single-method-result.tsx:79
 msgid "This shipping method's eligibility checker conditions are not met for the current order and shipping address."
-msgstr "This method's eligibility checker conditions are not met for the current reservation and address."
+msgstr "This booking method's eligibility checker conditions are not met for the current reservation and billing address."
 
 #: src/lib/components/date-range-picker.tsx:49
 msgctxt "date-range"
@@ -4963,11 +4983,11 @@ msgstr "Track"
 
 #: src/app/routes/_authenticated/_global-settings/global-settings.tsx:144
 msgid "Track inventory by default"
-msgstr "Track inventory by default"
+msgstr "Track availability by default"
 
 #: src/app/routes/_authenticated/_orders/components/fulfillment-details.tsx:112
 msgid "Tracking code"
-msgstr "Tracking code"
+msgstr "Booking reference"
 
 #: src/app/routes/_authenticated/_orders/components/add-manual-payment-dialog.tsx:160
 #: src/app/routes/_authenticated/_orders/components/payment-details.tsx:178
@@ -5009,7 +5029,7 @@ msgstr "Type at least 2 characters to search..."
 #: src/app/routes/_authenticated/_orders/components/order-table.tsx:57
 #: src/app/routes/_authenticated/_orders/components/refund-order-dialog.tsx:96
 msgid "Unit price"
-msgstr "Unit price"
+msgstr "Rate per night"
 
 #: src/app/routes/_authenticated/_orders/components/order-modification-preview-dialog.tsx:102
 #: src/app/routes/_authenticated/_orders/hooks/use-refund-order.ts:303
@@ -5038,7 +5058,7 @@ msgstr "Unverified"
 #: src/app/routes/_authenticated/_orders/components/order-line-custom-fields-form.tsx:46
 #: src/app/routes/_authenticated/_payment-methods/payment-methods_.$id.tsx:131
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:227
-#: src/app/routes/_authenticated/_products/components/assign-facet-values-dialog.tsx:276
+#: src/app/routes/_authenticated/_products/components/assign-facet-values-dialog.76
 #: src/app/routes/_authenticated/_products/products_.$id.tsx:122
 #: src/app/routes/_authenticated/_products/products_.$productId.option-groups.$id.tsx:138
 #: src/app/routes/_authenticated/_products/products_.$productId.option-groups.$productOptionGroupId.options_.$id.tsx:159
@@ -5079,11 +5099,11 @@ msgstr "Use as the default billing address"
 #: src/app/routes/_authenticated/_customers/components/customer-address-form.tsx:305
 #: src/lib/components/shared/customer-address-form.tsx:296
 msgid "Use as the default shipping address"
-msgstr "Use as the default shipping address"
+msgstr "Use as the default billing address"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:391
 msgid "Use global out-of-stock threshold"
-msgstr "Use global availability threshold"
+msgstr "Use global unavailability threshold"
 
 #: src/lib/hooks/use-widget-dimensions.ts:9
 msgid "useWidgetDimensions must be used within a DashboardBaseWidget"
@@ -5107,23 +5127,23 @@ msgstr "Values"
 
 #: src/app/routes/_authenticated/_products/components/create-product-variants.tsx:205
 msgid "Variant"
-msgstr "Type"
+msgstr "Unit"
 
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:182
 msgid "Variant deleted successfully"
-msgstr "Accommodation type deleted successfully"
+msgstr "Unit deleted successfully"
 
 #: src/app/routes/_authenticated/_product-variants/product-variants_.$id.tsx:249
 msgid "Variant name"
-msgstr "Type name"
+msgstr "Unit name"
 
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:174
 msgid "Variant updated successfully"
-msgstr "Accommodation type updated successfully"
+msgstr "Unit updated successfully"
 
 #: src/app/routes/_authenticated/_products/products_.$id_.variants.tsx:297
 msgid "Variants"
-msgstr "Types"
+msgstr "Units"
 
 #: src/app/routes/_authenticated/_customers/components/customer-status-badge.tsx:18
 msgid "Verified"
@@ -5186,7 +5206,7 @@ msgstr "Visible to admins only"
 
 #: src/lib/components/shared/history-timeline/history-note-checkbox.tsx:24
 msgid "Visible to customer"
-msgstr "Visible to customer"
+msgstr "Visible to guest"
 
 #: src/lib/components/login/login-form.tsx:70
 msgid "Welcome to Vendure"
@@ -5199,15 +5219,15 @@ msgstr "When enabled, an accommodation is available for booking"
 
 #: src/app/routes/_authenticated/_promotions/promotions_.$id.tsx:148
 msgid "When enabled, a promotion is available in the shop"
-msgstr "When enabled, a promotion is available on the booking site"
+msgstr "When enabled, a promotion is available for bookings"
 
 #: src/app/routes/_authenticated/_channels/channels_.$id.tsx:236
 msgid "When this is enabled, the prices entered in the product catalog will be included in the tax for the default tax zone."
-msgstr "When this is enabled, the prices entered in the catalog will be included in the tax for the default tax zone."
+msgstr "When this is enabled, the prices entered in the accommodation catalog will be included in the tax for the default tax zone."
 
 #: src/app/routes/_authenticated/_global-settings/global-settings.tsx:146
 msgid "When tracked, product variant stock levels will be automatically adjusted when sold. This setting can be overridden by individual product variants."
-msgstr "When tracked, availability levels will be automatically adjusted when a booking is made."
+msgstr "When tracked, unit availability levels will be automatically adjusted when reserved. This setting can be overridden by individual accommodation units."
 
 #: src/lib/components/shared/rich-text-editor/image-dialog.tsx:179
 msgid "Width"

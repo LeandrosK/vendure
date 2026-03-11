@@ -18,6 +18,7 @@ const commonI18nString = {
         /* i18n*/ 'paymentState.Declined',
         /* i18n*/ 'paymentState.Error',
         /* i18n*/ 'paymentState.Cancelled',
+        /* i18n*/ 'paymentState.AwaitingPayment',
     ],
     refundState: [
         /* i18n*/ 'paymentState.Pending',
@@ -39,6 +40,7 @@ const commonI18nString = {
         /* i18n*/ 'orderState.Modifying',
         /* i18n*/ 'orderState.ArrangingAdditionalPayment',
         /* i18n*/ 'orderState.Validating',
+        /* i18n*/ 'orderState.AwaitingPayment',
     ],
     refundReason: [
         /* i18n*/ 'refundReason.CustomerRequest',
