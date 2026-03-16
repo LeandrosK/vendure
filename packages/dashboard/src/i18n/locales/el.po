@@ -375,6 +375,11 @@ msgstr "Αναμονή πληρωμής"
 
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:43
+msgid "orderState.Complete"
+msgstr "Ολοκληρωμένη"
+
+#. js-lingui-explicit-id
+#: src/i18n/common-strings.ts:43
 msgid "refundReason.CustomerRequest"
 msgstr "Αίτημα Πελάτη"
 

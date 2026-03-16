@@ -41,6 +41,7 @@ const commonI18nString = {
         /* i18n*/ 'orderState.ArrangingAdditionalPayment',
         /* i18n*/ 'orderState.Validating',
         /* i18n*/ 'orderState.AwaitingPayment',
+        /* i18n*/ 'orderState.Complete',
     ],
     refundReason: [
         /* i18n*/ 'refundReason.CustomerRequest',

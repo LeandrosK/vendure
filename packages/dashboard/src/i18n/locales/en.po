@@ -379,6 +379,11 @@ msgstr "Awaiting payment"
 
 #. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:43
+msgid "orderState.Complete"
+msgstr "Complete"
+
+#. js-lingui-explicit-id
+#: src/i18n/common-strings.ts:43
 msgid "refundReason.CustomerRequest"
 msgstr "Customer request"
 
