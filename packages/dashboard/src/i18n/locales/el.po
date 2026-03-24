@@ -374,6 +374,11 @@ msgid "orderState.AwaitingPayment"
 msgstr "Αναμονή πληρωμής"
 
 #. js-lingui-explicit-id
+#: src/i18n/common-strings.ts:42
+msgid "orderState.DepositPaymentSettled"
+msgstr "Η προκαταβολή πληρώθηκε"
+
+#. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:43
 msgid "orderState.Complete"
 msgstr "Ολοκληρωμένη"

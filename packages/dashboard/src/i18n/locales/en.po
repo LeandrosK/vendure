@@ -378,6 +378,11 @@ msgid "orderState.AwaitingPayment"
 msgstr "Awaiting payment"
 
 #. js-lingui-explicit-id
+#: src/i18n/common-strings.ts:42
+msgid "orderState.DepositPaymentSettled"
+msgstr "Deposit payment settled"
+
+#. js-lingui-explicit-id
 #: src/i18n/common-strings.ts:43
 msgid "orderState.Complete"
 msgstr "Complete"
