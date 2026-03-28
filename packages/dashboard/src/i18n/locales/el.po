@@ -96,6 +96,11 @@ msgid "Orders"
 msgstr "Κρατήσεις"
 
 #. js-lingui-explicit-id
+#: src/lib/framework/defaults.ts:75
+msgid "Calendar"
+msgstr "Ημερολόγιο"
+
+#. js-lingui-explicit-id
 #: src/lib/framework/defaults.ts:84
 #: src/lib/framework/defaults.ts:91
 msgid "Customers"

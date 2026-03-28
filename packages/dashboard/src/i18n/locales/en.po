@@ -96,6 +96,11 @@ msgid "Orders"
 msgstr "Reservations"
 
 #. js-lingui-explicit-id
+#: src/lib/framework/defaults.ts:75
+msgid "Calendar"
+msgstr "Calendar"
+
+#. js-lingui-explicit-id
 #: src/lib/framework/defaults.ts:84
 #: src/lib/framework/defaults.ts:91
 msgid "Customers"
